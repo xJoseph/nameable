@@ -31,4 +31,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'guard-rspec', '~> 4.5'
   spec.add_development_dependency 'rake', '~> 10.4'
   spec.add_development_dependency 'rspec', '~> 3.3'
+  spec.add_development_dependency 'pronto', '>= 0.1'
+  spec.add_development_dependency 'pronto-rubocop', '>= 0.1'
+  spec.add_development_dependency 'pronto-reek', '>= 0.1'
+  spec.add_development_dependency 'pronto-flay', '>= 0.1'
+  spec.add_development_dependency 'pronto-brakeman', '>= 0.1'
 end
